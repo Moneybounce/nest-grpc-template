@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package qard;
+
+service exampleService {
+  rpc exampleCall(ExampleParams) returns (ExampleReturn) { }
+}
+
+message ExampleParams {
+  string mail = 1;
+  string firstName = 2;
+  string lastName = 3;
+}
+
+message ExampleReturn {
+  bool success = 1;
+}
