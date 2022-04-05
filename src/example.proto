@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package qard;
+package example;
 
 service exampleService {
   rpc exampleCall(ExampleParams) returns (ExampleReturn) { }

@@ -10,7 +10,7 @@ const microserviceOptions = {
   transport: Transport.GRPC,
   options: {
     url: '0.0.0.0:' + port,
-    package: 'qard',
+    package: 'example',
     protoPath: join(__dirname, '../src/example.proto'),
   },
 };
